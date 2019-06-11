@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" />
+        <title>Kit UI</title>
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style/stylesheet.css" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" integrity="sha384-i1LQnF23gykqWXg6jxC2ZbCbUMxyw5gLZY6UiUS98LYV5unm8GWmfkIS6jqJfb4E" crossorigin="anonymous">
+    </head>
+    <body>
+        <h1>Kit UI</h1>
+        <main>
+            <div>
+                <h2>Couleurs</h2>
+                <section>
+                    <div>
+                        <div class="bg-primary sample"></div>
+                        <p class="primary">Primary</p>
+                    </div>
+                    <div>
+                        <div class="bg-secondary sample"></div>
+                        <p class="secondary">Secondary</p>
+                    </div>
+                    <div>
+                        <div class="bg-dark sample"></div>
+                        <p class="dark">Dark</p>
+                    </div>
+                    <div>
+                        <div class="bg-medium-dark sample"></div>
+                        <p class="medium-dark">Medium-Dark</p>
+                    </div>
+                    <div>
+                        <div class="bg-light sample"></div>
+                        <p class="light">Light</p>
+                    </div>
+                </section>
+            </div>
+            <div>
+                <h2>Typographie</h2>
+                <section>
+                    <div>
+                        <h1>Titre 1</h1>
+                        <h2>Titre2</h2>
+                        <h3>Titre3</h3>
+                        <h4>Titre4</h4>
+                        <h5>Titre5</h5>
+                        <h6>Titre6</h6> 
+                    </div>
+                    <div>
+                        <p>Ceci est un paragraphe</p>
+                        <p class="lead">Ceci est un paragraphe mis en avant</p>
+                        <blockquote>"I drink wine and I know things"</blockquote>
+                        <ul>
+                            <li>Item</li>
+                            <li>Item</li>
+                            <li>
+                                Item
+                                <ol>
+                                    <li>First</li>
+                                    <li>Second</li>
+                                </ol>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+            <div>
+                <h2>Boutons</h2>
+                <table>
+                    <tr>
+                        <td>btn&nbsp;:</p>
+                        <td><button class="btn bg-primary">Primary</button></td>
+                        <td><button class="btn bg-warning">Warning</button></td>
+                        <td><button class="btn bg-danger">Danger</button></td>
+                        <td><button class="btn bg-info">Info</button></td>
+                        <td><button class="btn bg-success">Success</button></td>
+                    </tr>
+                    <tr>
+                        <td><p>outline&nbsp;:</p></td>
+                        <td><button class="btn outline outline-primary">Primary</button></td>
+                        <td><button class="btn outline outline-warning">Warning</button></td>
+                        <td><button class="btn outline outline-danger">Danger</button></td>
+                        <td><button class="btn outline outline-info">Info</button></td>
+                        <td><button class="btn outline outline-success">Success</button></td>
+                    </tr>
+                    <tr>
+                        <td><p>btn-sm&nbsp;:</p></td>
+                        <td><button class="btn btn-sm bg-primary">Primary</button></td>
+                        <td><button class="btn btn-sm bg-warning">Warning</button></td>
+                        <td><button class="btn btn-sm bg-danger">Danger</button></td>
+                        <td><button class="btn btn-sm bg-info">Info</button></td>
+                        <td><button class="btn btn-sm bg-success">Success</button></td>
+                    </tr>
+                    <tr>
+                        <td><p>btn-lg&nbsp;:</p></td>
+                        <td><button class="btn btn-lg bg-primary">Primary</button></td>
+                        <td><button class="btn btn-lg bg-warning">Warning</button></td>
+                        <td><button class="btn btn-lg bg-danger">Danger</button></td>
+                        <td><button class="btn btn-lg bg-info">Info</button></td>
+                        <td><button class="btn btn-lg bg-success">Success</button></td>
+                    </tr>
+                </table>
+            </div>
+            <div>
+                <h2>Icônes</h2>
+                <section>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-facebook-square"></i>
+                    <i class="fab fa-twitter-square"></i>
+                    <i class="fas fa-fish"></i>
+                    <i class="fas fa-hamburger"></i>
+                    <i class="fas fa-carrot"></i>
+                    <i class="fas fa-seedling"></i>
+                    <i class="fas fa-candy-cane"></i>
+                    <i class="fas fa-ice-cream"></i>
+                    <i class="fas fa-cookie"></i>
+                </section>
+            </div>
+            <div>
+                <h2>Formulaires</h2>
+                <form action="#" method="POST">
+                    <p>
+                        <label class="col-25" for="txt">Label&nbsp;:</label>
+                        <input class="col-75" type="text" id="txt" name="txt" />
+                    </p>
+                    <div>
+                        <strong>Menu déroulant&nbsp;:</strong><br/>
+                        <select class="full-line" name="dropdown">
+                            <optgroup label="Groupe d'option">
+                                <option value="1">Option 1</option>
+                                <option value="2">Option 2</option>
+                            </optgroup>
+                        </select>
+                    </div>
+                    <div>
+                        <strong>Zone de texte :</strong><br/>
+                        <textarea>Zone de texte</textarea>
+                    </div>
+                    <p>
+                        <strong>Choix unique&nbsp;:</strong><br/>
+                        <input type="radio" name="unique" id="unique1" value="1" />
+                        <label for="unique1">Choix 1</label>
+                        <input type="radio" name="unique" id="unique2" value="2" />
+                        <label for="unique2">Choix 2</label>
+                    </p>
+                    <p>
+                        <strong>Choix Multiple&nbsp;</strong><br/>
+                        <input type="checkbox" name="multiple" id="multiple1" value="1" />
+                        <label for="multiple1">Choix 1</label>
+                        <input type="checkbox" name="multiple" id="multiple2" value="2" />
+                        <label for="multiple2">Choix 2</label>
+                    </p>
+                    <p class="center">
+                        <input type="submit" class="btn bg-primary" />
+                        <input type="reset" class="btn bg-warning" />
+                    </p>
+                </form>
+            </div>
+            <div>
+                <h2>Cartes</h2>
+                <section>
+                    <div class="card">
+                        <div class="card-img-top">
+                            <img  src="..." alt="Card image cap">
+                        </div>
+                        <div class="card-body">
+                            <h4 class="center">Card title</h4>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <p class="center"><a href="#" class="btn bg-primary">Go somewhere</a></p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="center">Card title</h4>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <p class="center"><a href="#" class="btn bg-primary">Go somewhere</a></p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-img-top">
+                            <img  src="..." alt="Card image cap">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                    <div class="card id-card">
+                            <div class="card-img-top">
+                                <img  src="..." alt="Card image cap">
+                            </div>
+                            <div class="card-body">
+                                <h4 class="center">Card title</h4>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    <div class="card card-with-overlay">
+                        <div class="card-img-top img-back">
+                            <img  src="..." alt="Card image cap">
+                        </div>
+                        <div class="card-body card-overlay">
+                            <h4 class="center">Card title</h4>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+    </body>
+</html>
